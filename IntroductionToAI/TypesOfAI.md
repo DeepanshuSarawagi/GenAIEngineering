@@ -147,38 +147,54 @@ Engages in more natural and human-like interactions.
 
 Predicts human intentions based on context and behavior.
 
-Self-aware AI:
+#### Self-aware AI:
 
 Self-aware AI represents the most advanced form of AI, which has its own consciousness and self-awareness. This type of AI can understand and react to its own emotions and states. It remains a theoretical concept and has not yet been realized.
 
 #### Capabilities:
 
-Self-diagnosis: Evaluates its own performance and health.
+##### Self-diagnosis: 
 
-Autonomous learning: Learns independently without human intervention.
+Evaluates its own performance and health.
 
-Adaptive behavior: Adjusts behavior based on self-awareness.
+##### Autonomous learning:
 
-Narrow AI (Weak AI):
+Learns independently without human intervention.
+
+##### Adaptive behavior:
+
+Adjusts behavior based on self-awareness.
+
+### Narrow AI (Weak AI):
 
 Narrow AI is designed to perform a specific task or a limited range of tasks. It excels in a single area but lacks generalization capabilities. Most current AI applications fall under this category.
 
 #### Capabilities:
 
-Task specialization: Excels in performing specific tasks.
+##### Task specialization:
 
-High accuracy: Achieves high performance in its designated area.
+Excels in performing specific tasks.
+
+##### High accuracy:
+
+Achieves high performance in its designated area.
 
 Efficiency: Operates efficiently within its scope of specialization.
 
-General AI (Strong AI):
+### General AI (Strong AI):
 
 General AI, like human intelligence, can understand, learn, and apply knowledge across a wide range of tasks. It can also transfer knowledge from one domain to another and adapt to new situations autonomously.
 
 #### Capabilities:
 
-Cross-domain learning: Applies knowledge across various domains.
+##### Cross-domain learning:
 
-Autonomous decision making: Makes decisions independently in diverse scenarios.
+Applies knowledge across various domains.
 
-Human-like understanding: Understands and processes information similar to humans.
+##### Autonomous decision making:
+
+Makes decisions independently in diverse scenarios.
+
+##### Human-like understanding:
+
+Understands and processes information similar to humans.
