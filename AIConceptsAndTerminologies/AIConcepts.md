@@ -92,3 +92,13 @@
         - Logistic regression
         - Random forests
         - Support vector machines
+
+### Machine Learning vs Deep Learning:
+- **Machine Learning:**
+  - We define inputs to the data and assign weights to each input marking its importance.
+  - Larger weights make a single input contribution to the output more significant compared to others.
+- .**Deep Learning:**
+  - Neural networks are trained to learn patterns and relationships in data.
+  - Each neuron in the network is connected to other neurons in the network.
+  - The more connections between neurons, the more complex the patterns and relationships that can be learned.
+  - Doesn't really require any labeled datasets.
