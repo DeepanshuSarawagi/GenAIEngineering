@@ -41,6 +41,12 @@
 - Input layer: Receives data.
 - Hidden layers: Process data and extract features.
 - Output layer: Produces the final result.
+- Neural network architecture:
+  - Neural network layers:
+    - Neurons: Basic processing units that receive input, apply weights, and produce output.
+    - Activation functions: Determine whether a neuron should be activated based on the input it receives.
+    - Weights: Parameters that determine the strength of the connection between neurons.
+    - Biases: Additional parameters that allow the model to fit the data better by shifting the activation function.
 
 ### Machine Learning:
 - Algorithms that enable computers to learn from data.
