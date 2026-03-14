@@ -2,7 +2,7 @@
 
 ## Cognitive Computing
 
-- Provides enhanced functionality, Adaptability and Intelligence.
+- Provides enhanced functionality, Adaptability, and Intelligence.
 - Tech to mimic human cognitive processes.
 
 ### Core elements of Cognitive Computing:
@@ -27,3 +27,12 @@
 - Input layer: Receives data.
 - Hidden layers: Process data and extract features.
 - Output layer: Produces the final result.
+
+### Machine Learning:
+- Algorithms that enable computers to learn from data.
+- Supervised learning: Uses labeled data to make predictions.
+- Unsupervised learning: Finds patterns and relationships in unlabeled data.
+  - Clustering: Groups similar data points together.
+- Reinforcement learning: Learns through trial and error.
+  - Define state, desired goal, allowed actions, and constraints to guide learning.
+
