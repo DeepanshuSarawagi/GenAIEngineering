@@ -102,3 +102,37 @@
   - Each neuron in the network is connected to other neurons in the network.
   - The more connections between neurons, the more complex the patterns and relationships that can be learned.
   - Doesn't really require any labeled datasets.
+
+## Generative AI models:
+
+### Variational Autoencoders (VAEs):
+- Works by transforming input data by encoding and decoding.
+- They have three main components:
+  - Encoder: Compresses the input data into a lower-dimensional representation.
+  - Latent space: A continuous space where the key features of the data is captured.
+  - Decoder: Reconstructs the original data from the compressed representation from latent space.
+- VAEs are used in image generation, text generation, and other applications where generating new data is desired.
+
+### Generative Adversarial Networks (GANs):
+- A type of generative model that combines two neural networks:
+  - Generator: Generates new data samples.
+  - Discriminator: Evaluates the authenticity of the generated samples.
+- The generator and discriminator are trained together in a competitive process, 
+  where the generator tries to produce realistic data to fool the discriminator, while the discriminator tries to distinguish between real and generated data.
+- Used for image synthesis, Style transfer, and data augmentation.
+
+### Autoregressive models:
+- A type of generative model creates data sequentially based on previous data.
+- These models predict the next value in a sequence based on the previous values.
+- WaveNets are a popular example of autoregressive models.
+- Autoregressive models are particularly useful in time series analysis and forecasting.
+
+### Transformers:
+- Transformers are particularly useful in natural language processing and machine translation.
+- They consist of encoder and decoder layers enabling the model to generate text sequences or perform cross language translations.
+- OpenAI's GPT-5 (Generative Pretrained Transformer) is a transformer-based language model.
+- Categories of transformers:
+  - Unimodal:
+    - Processes a single type of data, such as text or images. E.g., GPT-3.
+  - Multimodal:
+    - Capable of processing and generating multiple types of data, such as text and images together. E.g., DALL-E.
