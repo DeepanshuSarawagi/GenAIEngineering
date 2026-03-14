@@ -41,12 +41,25 @@
 - Input layer: Receives data.
 - Hidden layers: Process data and extract features.
 - Output layer: Produces the final result.
-- Neural network architecture:
-  - Neural network layers:
+- **Neural network architecture:**
+  - **Neural network layers:**
     - Neurons: Basic processing units that receive input, apply weights, and produce output.
     - Activation functions: Determine whether a neuron should be activated based on the input it receives.
     - Weights: Parameters that determine the strength of the connection between neurons.
     - Biases: Additional parameters that allow the model to fit the data better by shifting the activation function.
+- **Training techniques:**
+  - **Forward Propagation:**
+    - Data flows through the network from input to output.
+    - Each layer processes the data and passes it to the next layer.
+    - Network computes an output.
+  - **Backpropagation:**
+    - After forward propagation, the network calculates the error by comparing the predicted output to the actual output.
+    - The error is then propagated backward through the network to update the weights and biases.
+    - This process helps the network learn and improve its predictions over time.
+- **Types of Neural Networks:**
+  - Convolutional Neural Networks (CNNs): Primarily used for image and video recognition tasks.
+  - Recurrent Neural Networks (RNNs): Designed for sequential data, such as time series or natural language processing.
+  - Generative Adversarial Networks (GANs): Consist of two neural networks that compete against each other to generate realistic data.
 
 ### Machine Learning:
 - Algorithms that enable computers to learn from data.
@@ -57,21 +70,21 @@
   - Define state, desired goal, allowed actions, and constraints to guide learning.
 
 #### Machine Learning Techniques and Training:
-- Supervised Learning:
+- **Supervised Learning:**
   - Employs data sets with predefined class labels.
   - Trains models to predict or classify new data points.
-- Unsupervised Learning:
+- **Unsupervised Learning:**
   - Utilizes data sets without predefined labels.
   - Identifies patterns, relationships, or clusters within the data.
-- Reinforcement Learning:
+- **Reinforcement Learning:**
   - Involves an agent learning to make decisions by interacting with an environment.
   - The agent receives feedback in the form of rewards or penalties based on its actions, allowing it to learn optimal strategies over time.
 
 #### Types of supervised learning:
-- Regression:
+- **Regression:**
     - Predicts continuous values based on input data.
     - Example: Predicting house prices based on features like size, location, and number of bedrooms.
-- Classification:
+- **Classification:**
     - Assigns input data to predefined categories or classes.
     - Example: Classifying emails as spam or not spam based on their content and metadata.
     - Forms of classification:
