@@ -14,3 +14,16 @@
 - Reasoning
   - Making accurate decisions and predictions based on data analysis.
 
+## AI Terminologies:
+
+### Deep Learning:
+
+- Uses layered neural networks to analyze and learn from data.
+- Labels and categorize data.
+- Identifies patterns and relationships.
+- Determines the correctness of predictions.
+
+### Neural Networks:
+- Input layer: Receives data.
+- Hidden layers: Process data and extract features.
+- Output layer: Produces the final result.
