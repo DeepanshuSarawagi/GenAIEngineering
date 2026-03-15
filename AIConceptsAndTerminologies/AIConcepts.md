@@ -59,7 +59,7 @@
 - **Types of Neural Networks:**
   - Convolutional Neural Networks (CNNs): Primarily used for image and video recognition tasks.
   - Recurrent Neural Networks (RNNs): Designed for sequential data, such as time series or natural language processing.
-  - Generative Adversarial Networks (GANs): Consist of two neural networks that compete against each other to generate realistic data.
+  - Generative Adversarial Networks (GANs): Consist of two or more neural networks that compete against each other to generate realistic data.
 
 ### Machine Learning:
 - Algorithms that enable computers to learn from data.
