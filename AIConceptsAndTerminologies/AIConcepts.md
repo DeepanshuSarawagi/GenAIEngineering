@@ -136,3 +136,12 @@
     - Processes a single type of data, such as text or images. E.g., GPT-3.
   - Multimodal:
     - Capable of processing and generating multiple types of data, such as text and images together. E.g., DALL-E.
+
+## Large Language Models (LLMs):
+- Large language models are capable of generating human-like text based on a large amount of data.
+- They are trained on large datasets of text and are able to generate new text based on the input.
+- They are part of different class of models called foundation models.
+- They are trained on huge amounts of data that are unstructured and unlabeled in unsupervised manner.
+  - If we introduce small amounts of labeled data, to the equation, the model will be tuned to perform traditional NLP tasks.
+  - This is called fine-tuning.
+  - If you don't have enough data, or have only few data points, they can still work with low label data domains in a process called prompting 
