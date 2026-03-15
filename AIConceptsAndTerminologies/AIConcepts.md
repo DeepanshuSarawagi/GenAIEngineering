@@ -93,16 +93,18 @@
         - Random forests
         - Support vector machines
 
-### Machine Learning vs Deep Learning:
+### Machine Learning vs Deep Learning vs Foundation Models:
 - **Machine Learning:**
   - We define inputs to the data and assign weights to each input marking its importance.
   - Larger weights make a single input contribution to the output more significant compared to others.
-- .**Deep Learning:**
+- **Deep Learning:**
   - Neural networks are trained to learn patterns and relationships in data.
   - Each neuron in the network is connected to other neurons in the network.
   - The more connections between neurons, the more complex the patterns and relationships that can be learned.
   - Doesn't really require any labeled datasets.
-
+- **Foundation Models:**
+  - These are large-scale neural networks trained on vast amounts of data, often using unsupervised learning techniques.
+  
 ## Generative AI models:
 
 ### Variational Autoencoders (VAEs):
@@ -144,4 +146,5 @@
 - They are trained on huge amounts of data that are unstructured and unlabeled in unsupervised manner.
   - If we introduce small amounts of labeled data, to the equation, the model will be tuned to perform traditional NLP tasks.
   - This is called fine-tuning.
-  - If you don't have enough data, or have only few data points, they can still work with low label data domains in a process called prompting 
+  - If you don't have enough data, or have only few data points, they can still work with low label data domains in a 
+    process called prompting.
