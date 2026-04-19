@@ -41,3 +41,21 @@
 - RAG is a technique that combines the power of LLMs with the ability to retrieve and combine information from external sources.
 - It allows you to generate responses based on a query and retrieve relevant information from a knowledge base.
 - Can leverage semantic search via vector stores to find relevant information.
+  - It uses embeddings which kind of encode the underlying meaning of the information.
+  - And therefore performs a search based on the semantic meaning of the query/prompt.
+
+#### Embeddings:
+- Embeddings are a way to represent the meaning of an information piece.
+  - They are a vector representation of the information.
+  - Embeddings are computed such that items that are similar to each other are close to each other in the vector space.
+  - Finding items that are similar to each other is performed using cosine similarity.
+- They are used to encode the underlying meaning of the information.
+- They are used to perform semantic search.
+- We can use embedding base models like Amazon Titan to compute embeddings.
+
+#### RAG Flow:
+1. User provides a query or prompt.
+2. The system computes the embedding of the query using an embedding model.
+3. The system performs a semantic search in the vector store to find relevant information based on the computed embedding.
+4. The retrieved information is then combined with the original query and passed to the LLM to generate a response.
+5. The LLM generates a response based on the combined input of the original query and the retrieved information.
