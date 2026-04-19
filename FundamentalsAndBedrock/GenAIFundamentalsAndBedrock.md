@@ -17,3 +17,21 @@
 
 - Must use with an IAM user and not root user.
 - Requires specific permissions for each API endpoint.
+
+### Fine-tuning a model:
+- In Amazon Bedrock, you can fine-tune a model by creating a custom model version. This involves providing your training data and specifying the base model you want to fine-tune. 
+- The process is managed through the Bedrock API, and you can monitor the training progress and manage your custom models through the Bedrock console or API.
+- Following models can be fine-tuned:
+  - Amazon Titan
+  - Cohere
+  - Meta models
+- Use VPC and private link to fine tune the model.
+  - This is a potential security question in the model.
+
+#### Low Rank Adaptation (LRA):
+
+- LRA is a technique that reduces the number of parameters in a model by removing redundant information.
+- It is used to reduce the size of a model by removing redundant information.
+- We dont need to fine tune the entire model, but add some low-rank matrices to the attention weights.
+- At inference time, we can use the low-rank matrices to generate the output, which is much faster than using the entire model.
+
