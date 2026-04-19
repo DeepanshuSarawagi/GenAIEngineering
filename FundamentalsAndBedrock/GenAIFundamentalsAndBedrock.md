@@ -35,3 +35,9 @@
 - We dont need to fine tune the entire model, but add some low-rank matrices to the attention weights.
 - At inference time, we can use the low-rank matrices to generate the output, which is much faster than using the entire model.
 
+
+### Retrieval Augmented Generation (RAG):
+
+- RAG is a technique that combines the power of LLMs with the ability to retrieve and combine information from external sources.
+- It allows you to generate responses based on a query and retrieve relevant information from a knowledge base.
+- Can leverage semantic search via vector stores to find relevant information.
