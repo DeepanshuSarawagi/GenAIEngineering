@@ -86,3 +86,22 @@
   - Number of surrounding sentences per sentence to consider when embedding i.e., if buffer size of 1 results in 3 sentences per chunk (the sentence itself and one sentence on either side).
   - Too large = introducing noise, too small = missing out on important context.
 
+### Optimizing your embeddings:
+
+- Use a smaller vector is a good way to cost efficiency.
+- Smaller vector means fewer dimensions per chunk which means less cost.
+
+### Measuring your RAG system:
+- Bedrock includes RAG evaluation jobs that can measure:
+  - Correctness
+  - Completeness
+  - Helpfulness
+  - Logical coherence
+  - Faithfulness
+  - Citation precision
+  - Coverage
+  - Harmfulness
+  - Stereotyping
+  - Bias
+  - Refusal
+- 
