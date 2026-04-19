@@ -135,3 +135,4 @@
   - Helps prevent hallucinations and misinformation.
   - Checks if the response is based on the context provided in the prompt.
   - Measures grounding and relevance.
+- Can be incorporated into the Agents and knowledge bases.
