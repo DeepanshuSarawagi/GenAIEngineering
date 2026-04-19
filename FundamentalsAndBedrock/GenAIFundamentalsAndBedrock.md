@@ -90,6 +90,14 @@
 
 - Use a smaller vector is a good way to cost efficiency.
 - Smaller vector means fewer dimensions per chunk which means less cost.
+- Your vector DB can store more than just vectors and the raw text of the chunk
+  - Bedrock Knowledge Bases can treat certain columns as content vs. metadata
+  - Pass in a metadata.json file to specify what’s what
+  - This makes sure you aren’t chunking up metadata (like creation date) but can still retrieve it
+- If you add metadata tags for things like topics, what section of the document we’re in, etc… you can use this for better retrieval too.
+  - Relevance scoring against metadata can be used for ranking
+- Other examples of metadata
+  - Document ID, category, access control, data lineage, additional context
 
 ### Measuring your RAG system:
 - Bedrock includes RAG evaluation jobs that can measure:
@@ -104,4 +112,26 @@
   - Stereotyping
   - Bias
   - Refusal
-- 
+- Well yeah, you have to provide “ground truth” of what you consider to be good responses.
+- You provide a prompt dataset for evaluation (in json)
+  - This includes both prompts and “reference responses”
+  - Optionally you can also provide “reference contexts” for the ideal ground truth you expect to be retrieved from your knowledge base
+- LLM as a judge!
+  - Specific metrics are defined within prompts to another model (Llama, Claude, Nova, Mistral)
+  - Different models will score in different ways
+
+### Bedrock Guardrails:
+
+- Content filtering for prompt and responses.
+- Works with text foundation models.
+- Word and topic filtering.
+- PII removal.
+- Profanity filtering.
+- Spam filtering.
+- Sensitive information filtering.
+- Language detection.
+- Content moderation.
+- Contextual Grounding Check:
+  - Helps prevent hallucinations and misinformation.
+  - Checks if the response is based on the context provided in the prompt.
+  - Measures grounding and relevance.
