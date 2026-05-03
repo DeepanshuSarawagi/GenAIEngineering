@@ -42,3 +42,11 @@ C[0] = "hip hop"
 print(C)
 print(A)
 print(B)
+
+A = [1, "a"]
+B = [2, 1, "d"]
+print(A + B)
+
+set1 = {1, 2, 3}
+set1.add(4)
+print(set1)
