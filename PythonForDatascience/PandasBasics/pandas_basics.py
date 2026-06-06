@@ -16,3 +16,6 @@ print(unique_artists)
 """How to extract data based on a condition"""
 songs_after_2000 = df[df['year'] > 2000]
 print(songs_after_2000)
+
+"""Write the filtered data to a new CSV file"""
+songs_after_2000.to_csv('../ReadWriteFiles/songs_after_2000.csv', index=False)
