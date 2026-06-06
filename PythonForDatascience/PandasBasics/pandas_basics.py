@@ -19,3 +19,9 @@ print(songs_after_2000)
 
 """Write the filtered data to a new CSV file"""
 songs_after_2000.to_csv('../ReadWriteFiles/songs_after_2000.csv', index=False)
+
+x = {'Name': ['Rose','John', 'Jane', 'Mary'], 'ID': [1, 2, 3, 4], 'Department': ['Architect Group', 'Software Group', 'Design Team', 'Infrastructure'],
+      'Salary':[100000, 80000, 50000, 60000]}
+
+df = pd.DataFrame(x)
+print(df)
