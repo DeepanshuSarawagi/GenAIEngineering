@@ -5,5 +5,5 @@ print(df.head())
 print(df.info())
 print(df.describe())
 print(df.columns)
-song_title = df['title']
-print(song_title)
+song_details = df[['title', "artist", "year"]]
+print(song_details)
