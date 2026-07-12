@@ -76,14 +76,14 @@
 - In **Hierarchical**, you specify the chunking levels and the tokens per chunk for each level.
 - Nested parent/child chunk.
 - Initial search hits the child chunks, then the parent chunk is hit to get more context when appropriate.
-- The idea is get better precision in retrieval by having smaller chunks, but also get better recall by having parent chunks that can provide more context.
+- The idea is to get better precision in retrieval by having smaller chunks but also get better recall by having parent chunks that can provide more context.
 
 #### Semantic Chunking:
 - In **Semantic**, hits a foundation model to break up chunks based on the meaning of the text and just things like sentences or
   fixed chunk size.
 - This is more expensive than the other two chunking methods, but it can provide better results.
-- Buffer size:
-  - Number of surrounding sentences per sentence to consider when embedding i.e., if buffer size of 1 results in 3 sentences per chunk (the sentence itself and one sentence on either side).
+- **Buffer size:**
+  - Number of surrounding sentences per sentence to consider when embedding i.e., if the buffer size of 1 results in 3 sentences per chunk (the sentence itself and one sentence on either side).
   - Too large = introducing noise, too small = missing out on important context.
 
 ### Optimizing your embeddings:
