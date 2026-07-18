@@ -89,7 +89,7 @@
 ### Optimizing your embeddings:
 
 - Use a smaller vector is a good way to cost efficiency.
-- Smaller vector means fewer dimensions per chunk which means less cost.
+- Smaller vector means fewer dimensions per chunk, which means lower cost.
 - Your vector DB can store more than just vectors and the raw text of the chunk
   - Bedrock Knowledge Bases can treat certain columns as content vs. metadata
   - Pass in a metadata.json file to specify what’s what
