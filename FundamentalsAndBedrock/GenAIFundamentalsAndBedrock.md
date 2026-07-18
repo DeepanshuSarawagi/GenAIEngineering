@@ -136,3 +136,13 @@
   - Checks if the response is based on the context provided in the prompt.
   - Measures grounding and relevance.
 - Can be incorporated into the Agents and knowledge bases.
+
+#### Token level redaction:
+- Filter sensitive tokens before request even hits your model.
+- Filter sensitive tokens in the response before it is returned to the user.
+- Amazon Comprehend could be used for this.
+
+![Token redaction](https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2025/03/28/ml-17892-s1-ingestion-flow-1.png)
+
+Refer to the following [blog](https://aws.amazon.com/blogs/machine-learning/protect-sensitive-data-in-rag-applications-with-amazon-bedrock/) for more information.
+
