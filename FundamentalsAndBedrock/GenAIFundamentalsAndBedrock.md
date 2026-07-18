@@ -146,3 +146,17 @@
 
 Refer to the following [blog](https://aws.amazon.com/blogs/machine-learning/protect-sensitive-data-in-rag-applications-with-amazon-bedrock/) for more information.
 
+### Bedrock Prompt Management:
+
+- Reusable prompt templates for LLMs and RAG.
+- They can be versioned and can include variables - placeholders for dynamic content.
+
+### Bedrock Prompt Flows:
+
+- This provides a way to orchestrate multiple prompts and models in a single flow.
+- A flow consists of nodes and connections between them.
+  - Connections can be conditional.
+
+### Enforcing use of structured data:
+
+- 
