@@ -156,7 +156,3 @@ Refer to the following [blog](https://aws.amazon.com/blogs/machine-learning/prot
 - This provides a way to orchestrate multiple prompts and models in a single flow.
 - A flow consists of nodes and connections between them.
   - Connections can be conditional.
-
-### Enforcing use of structured data:
-
-- 
